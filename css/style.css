@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #222;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('../images/bike1.jpg') no-repeat center;
+    background-size: cover;
+}
+.logo img {
+    max-width: 130px; 
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.models-preview {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.model-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.model img {
+    width: 100%;
+    max-width: 250px;
+    height: 180px; 
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+}
+
+@media (max-width: 768px) {
+    .model img {
+        max-width: 90%;
+        height: auto; 
+    }
+}
+
+
